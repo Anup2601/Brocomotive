@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="Blog.css">
+    <title> Blog</title>
+</head>
+
+<body>
+
+    <div class="navbar_sticky" id="navbar">
+        <div class="navbar">
+            <!-- <img src="images/logo.png" alt="Brocomotive Logo"> -->
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="carrers.html">Careers</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="Press.html">Press</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="corporative.html">Corporate</a></li>
+            </ul>
+            <button onclick="download_App()">Download App</button>
+        </div>
+    </div>
+
+    <div class="page_one">
+        <div class="background"></div>
+        <h5>Blog</h5>
+
+        <div id="page_one_blogs">
+            <div class="first_row">
+                <a href="https://www.brocomotive.com/Post/business-transportation-optimization">
+                    <div class="blog">
+                        <img src="truck.webp" id="radius"> 
+                        <!-- <img src="images/blog1.jpg" alt="Blog Image 1"> -->
+                        <span>January, 8th, 2021</span>
+                        <h2>Business Transportation Optimization for Logistics Managers</h2>
+                        <p>A survey found that 58% of logistics may be managers agree that using optimized truck routes like Brocomotive is crucial for business transportation...</p>
+                    </div>
+                </a>
+                <a href="https://www.brocomotive.com/Post/improving-logistics-efficiency">
+                    <div class="blog">
+                        <img src="truck.webp" id="radius"> 
+                        <!-- <img src="images/blog2.jpg" alt="Blog Image 2"> -->
+                        <span>January, 7th, 2021</span>
+                        <h2>Boost Your Logistics Efficiency with These Tips</h2>
+                        <p>Here are 5 ways to boost logistics productivity: 1. Leverage technology, and optimize your delivery schedules...</p>
+                    </div>
+                </a>
+                <a href="https://www.brocomotive.com/Post/fleet-management-solution">
+                    <div class="blog">
+                        <img src="truck.webp" id="radius"> 
+                        <!-- <img src="images/blog3.jpg" alt="Blog Image 3"> -->
+                        <span>January, 5th, 2021</span>
+                        <h2>Fleet Management Solutions for Trucking Companies</h2>
+                        <p>Are your truck drivers and fleet management systems integrated for the best efficiency? Learn how Brocomotive's tools can help...</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="center_row">
+                <a href="https://www.brocomotive.com/Post/reducing-transport-costs">
+                    <div class="blog">
+                        <img src="truck.webp" id="radius"> 
+                        <!-- <img src="images/blog4.jpg" alt="Blog Image 4"> -->
+                        <span>December, 17th, 2020</span>
+                        <h2>How to Reduce Transportation Costs</h2>
+                        <p>Customizing your fleet's routes and improving fuel management are key factors in reducing logistics costs...</p>
+                    </div>
+                </a>
+                <a href="https://www.brocomotive.com/Post/delivering-on-time-every-time">
+                    <div class="blog">
+                        <!-- <img src="images/blog5.jpg" alt="Blog Image 5"> -->
+                        <img src="truck.webp" id="radius"> 
+                        <span>December, 10th, 2020</span>
+                        <h2>Delivering On-Time, Every Time</h2>
+                        <p>Brocomotive ensures that your logistics operations run smoothly, allowing you to deliver products on time, every time...</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="end_row">
+                <a href="https://www.brocomotive.com/Post/road-safety-awareness-campaign">
+                    <div class="blog">
+                        <!-- <img src="images/blog6.jpg" alt="Blog Image 6"> -->
+                        <img src="truck.webp" id="radius"> 
+                        <span>June, 15th, 2020</span>
+                        <h2>Road Safety Awareness Campaign by Brocomotive</h2>
+                        <p>Research shows that safe driving practices among truck drivers can reduce accidents by 80%...</p>
+                    </div>
+                </a>
+                <a href="https://www.brocomotive.com/Post/logistics-support-centers-in-mumbai">
+                    <div class="blog">
+                        <!-- <img src="images/blog7.jpg" alt="Blog Image 7"> -->
+                        <img src="truck.webp" id="radius"> 
+                        <span>June, 15th, 2020</span>
+                        <h2>Brocomotive Launches 5 Logistics Support Centers in Mumbai</h2>
+                        <p>To improve logistics operations, Brocomotive has launched 5 support centers throughout Mumbai...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="page_two_blog" style="display: none;">
+            <div class="first_row">
+                <div class="blog">
+                    <!-- <img src="images/blog8.jpg" alt="Blog Image 8"> -->
+                    <img src="truck.webp" id="radius"> 
+                    <span>June, 15th, 2020</span>
+                    <h2>Brocomotive's Presence in Co-Working Spaces</h2>
+                    <p>Brocomotive has made its presence known in co-working spaces like GoWork, helping businesses manage logistics seamlessly...</p>
+                </div>
+                <div class="blog">
+                    <!-- <img src="images/blog9.jpg" alt="Blog Image 9"> -->
+                    <img src="truck.webp" id="radius"> 
+                    <span>June, 15th, 2020</span>
+                    <h2>Empowering Differently-Abled Drivers at Brocomotive</h2>
+                    <p>Brocomotive is operational across 80 cities in India, empowering differently-abled truck drivers with economic opportunities...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="first_btn_color" onclick="first_btn()">1</button>
+            <button id="second_btn_color" onclick="second_btn()">2</button>
+        </div>
+    </div>
+
+    <div class="page_seven">
+        <div class="page_seven_footer">
+            <div class="page_seven_box">
+                <h2>Customer App</h2>
+                <img src="images/play_store.svg" alt="Play Store Icon">
+                <img src="images/app_store.svg" alt="App Store Icon">
+            </div>
+            <div class="page_seven_box">
+                <h2>Driver App</h2>
+                <img src="images/play_store.svg" alt="Play Store Icon">
+            </div>
+            <div class="page_seven_box">
+                <h4>Home</h4>
+                <p>About us</p>
+                <p>Careers</p>
+                <p>Blog</p>
+            </div>
+            <div class="page_seven_box">
+                <h4>Privacy Policy</h4>
+                <p>Customer Terms</p>
+                <p>Driver Terms</p>
+                <p>Press</p>
+            </div>
+            <div class="social_icons">
+                <h4>Follow Us</h4>
+                <div class="page_seven_social_icons">
+                    <a href="https://www.facebook.com/brocomotive/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/brocomotiveapp" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/company/brocomotive/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/brocomotiveapp/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>© 2023 Brocomotive Logistics. All rights reserved.</p>
+    </div>
+
+    <div class="download">
+        <div class="app">
+            <div class="app_left_side">
+                <h3>Driver App Download</h3>
+                <a href="/Home.html"> <img src="images/driver_launcher.png" alt="Driver App Icon"> </a>
+                <p>Android</p>
+            </div>
+            <div class="line"></div>
+            <div class="app_right_side">
+                <h3>Customer App Download</h3>
+                <div class="app_img">
+                    <div class="app_left_side_img">
+                        <a href="https://play.google.com/store/apps/details?id=com.brocomotive.customer"><img src="images/customer_launcher.png" alt="Customer App Icon"></a>
+                    </div>
+                </div>
+                <p>Android</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

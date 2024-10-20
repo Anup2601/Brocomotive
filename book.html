@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Truck</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Book a Truck</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="pickup-location">Pickup Location</label>
+                <input type="text" id="pickup-location" name="pickup-location" placeholder="Enter pickup location" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="dropoff-location">Drop-off Location</label>
+                <input type="text" id="dropoff-location" name="dropoff-location" placeholder="Enter drop-off location" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="truck-type">Truck Type</label>
+                <select id="truck-type" name="truck-type" required>
+                    <option value="small">Small Truck</option>
+                    <option value="medium">Medium Truck</option>
+                    <option value="large">Large Truck</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="time">Time</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            
+            <button type="submit" class="submit-btn">Book Now</button>
+        </form>
+    </div>
+    <form action=" com.html" method="POST">
+        <!-- Form fields go here -->
+        <!-- <button type="submit" class="submit-btn">Book Now</button> -->
+    </form>
+    <script>
+        document.querySelector("form").addEventListener("submit", function(e) {
+            e.preventDefault();
+            window.location.href = " com.html";
+        });
+    </script>
+</body>
+</html>
